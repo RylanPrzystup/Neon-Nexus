@@ -7,4 +7,29 @@
   --cyberpunk-darkGrey: #2c2c38;
   --cyberpunk-cyan: #15A3C7;
   --cyberpunk-blue: #0313A6;
+  --dark-yellow: rgb(212, 212, 13);
+  --dark-blue: #1d0152;
 }
+
+#introDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--dark-blue);
+}
+
+#landingDisplayFood{
+  min-width: 60dvw;
+  clip-path: polygon( 100% 0, 100% 100%, 100% 100%, 100% 0);
+  /* height: 100%; */
+}
+
+/* #headerContainerLanding{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+} */
+
+
+
